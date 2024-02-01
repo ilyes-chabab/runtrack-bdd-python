@@ -1,0 +1,9 @@
+ 1-CREATE TABLE etudiant (
+    -> id INT AUTO_INCREMENT PRIMARY KEY, (primary key est utilisé pour eviter qu'il y ait 2 id identique)
+    -> nom VARCHAR(255) NOT NULL,
+    -> prenom VARCHAR(25) NOT NULL,
+    -> age INT NOT NULL,
+    -> email VARCHAR(255) NOT NULL
+    -> );
+
+2- SHOW TABLES
