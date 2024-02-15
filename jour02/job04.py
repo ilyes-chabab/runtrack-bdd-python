@@ -11,8 +11,8 @@ cursor =mydb.cursor()
 
 cursor.execute("SELECT nom, capacite FROM salle")
 
-etudiants = cursor.fetchall()
-print(etudiants)
+result = cursor.fetchall()
+print(result)
 
 cursor.close()
 mydb.close()

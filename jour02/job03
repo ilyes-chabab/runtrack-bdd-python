@@ -1,9 +1,13 @@
- 1-CREATE TABLE etudiant (
-    -> id INT AUTO_INCREMENT PRIMARY KEY, (primary key est utilisé pour eviter qu'il y ait 2 id identique)
-    -> nom VARCHAR(255) NOT NULL,
-    -> prenom VARCHAR(25) NOT NULL,
-    -> age INT NOT NULL,
-    -> email VARCHAR(255) NOT NULL
-    -> );
+ INSERT INTO etage(nom , numero , superficie)
+    -> VALUES
+    -> ('RDC',0,500)
+    -> ('R+1',1,500);
 
-2- SHOW TABLES
+INSERT INTO salle(nom,id_etage,capacite)
+    -> VALUES
+    -> ('lounge',1,100),
+    -> ('studio son',1,5),
+    -> ('broadcasting',2,50),
+    -> ('bocal peda',2,4),
+    -> ('coworking',2,80),
+    -> ('studio video',2,5);

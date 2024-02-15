@@ -1,0 +1,7 @@
+SELECT COUNT(*) AS
+    -> nb_etudiants_mineur
+    -> FROM etudiant
+    -> WHERE age BETWEEN 18 and 25;
+
+
+ mysql -u root -p -e "USE laplateforme;SELECT COUNT(*) AS nb_etudiants FROM etudiant WHERE age BETWEEN 18 AND 25;" > job21.sql

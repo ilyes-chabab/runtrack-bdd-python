@@ -1,0 +1,4 @@
+-1 SELECT * FROM etudiant 
+    WHERE age < 18;
+
+-2 mysql -u root -p -e "USE laplateforme; SELECT * FROM etudiant WHERE age < 18;" > job08.sql

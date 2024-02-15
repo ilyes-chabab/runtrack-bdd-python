@@ -1,0 +1,4 @@
+DELETE FROM etudiant
+    WHERE id=3
+
+mysql -u root -p -e "USE laplateforme;SELECT * FROM etudiant;" > job18.sql

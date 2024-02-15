@@ -1,0 +1,5 @@
+UPDATE etudiant
+    -> SET age = 20
+    -> WHERE id = 1;
+
+     mysql -u root -p -e "USE laplateforme;SELECT * FROM etudiant WHERE id = 1;" > job17.sql

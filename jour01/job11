@@ -1,0 +1,3 @@
+1-SELECT *FROM etudiant
+    -> WHERE nom = "Gertrude Dupuis";
+2- mysql -u root -p -e "USE laplateforme; SELECT * FROM etudiant WHERE nom = "Gertrude Dupuis";" > job11.sql

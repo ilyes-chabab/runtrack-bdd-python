@@ -1,0 +1,5 @@
+SELECT * FROM etudiant
+    -> ORDER BY age DESC
+    -> LIMIT 1;
+
+mysql -u root -p -e "USE laplateforme;SELECT * FROM etudiant ORDER BY age DESC LIMIT 1;" > job23.sql

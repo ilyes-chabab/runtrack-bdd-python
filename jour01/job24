@@ -1,0 +1,5 @@
+SELECT AVG(age) AS moyenne_age
+FROM etudiant
+
+
+ mysql -u root -p -e "USE laplateforme;SELECT AVG(age) AS moyenne_age FROM etudiant;" > job24.sql
